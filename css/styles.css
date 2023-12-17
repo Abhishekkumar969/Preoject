@@ -1344,8 +1344,21 @@
     /* smart phone width: 360px ----------- */
 
     @media (max-width: 385px) {
+        .landing .wow {
+            font-size: 42px;
+            font-weight: bold;
+            color: #edb8d2;
+            font-family: math;
+            margin: 44px 0 20px 0;
+            text-shadow: 0 -6px 7px rgb(92 85 94);
+        }
+
         .clients-item .box .message {
             width: 31rem;
+        }
+
+        .clientMobileRes {
+            height: 300px !important;
         }
 
         .img-responsive {
@@ -1355,16 +1368,32 @@
         }
 
         .clients-item .box .message {
-            padding: 45px;
+            padding: 0 19px;
+            margin: 0 -0.1rem;
             font-style: italic;
             line-height: 30px;
             font-weight: 300;
             font-size: 18px;
         }
 
+        .clients-item .box1 {
+            margin-right: 0px;
+            margin-left: 3px;
+        }
+
+        .clients-item .box2 {
+            margin-right: 0px;
+            margin-left: -23px;
+        }
+
+        .clients-item .box3 {
+            margin-right: 0px;
+            margin-left: -54px;
+        }
+
         .storyindex {
             margin: 0 auto;
-            max-width: 31rem !important;
+            max-width: 29rem !important;
         }
 
         #clients {
@@ -1405,6 +1434,44 @@
     /* iPhone 4/5 (portrait) ----------- */
 
     @media (max-width: 320px) {
+        .landing .wow {
+            font-size: 30px;
+            font-weight: bold;
+            color: #edb8d2;
+            font-family: math;
+            margin: 44px 0 20px 0;
+            text-shadow: 0 -6px 7px rgb(92 85 94);
+        }
+
+        .clients-item .box {
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+        .clients-item .box1 {
+            margin-right: 0px;
+            margin-left: -10px;
+        }
+
+        .clients-item .box2 {
+            margin-right: 0px;
+            margin-left: -77px;
+        }
+
+        .clients-item .box .message {
+            padding: 0 19px;
+            margin: 0 -0.1rem;
+            font-style: italic;
+            line-height: 30px;
+            font-weight: 300;
+            font-size: 18px;
+        }
+
+        .clients-item .box3 {
+            margin-right: 0px;
+            margin-left: -147px;
+        }
+
         .logo {
             margin: 30px 0 20px 0;
         }
