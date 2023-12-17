@@ -1263,6 +1263,51 @@
     /* iPhone 5 (landscape) ----------- */
 
     @media (max-width: 568px) {
+        .clients-item .box {
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+        .img-responsive {
+            display: block;
+            max-width: 40rem;
+            height: auto;
+        }
+
+        .storyindex {
+            margin: 0 auto;
+            max-width: 30rem;
+        }
+
+        .clients-item .box1 {
+            margin-right: 0px;
+            margin-left: 38px;
+        }
+
+        .clients-item .box2 {
+            margin-right: -103px;
+            margin-left: 80px;
+        }
+
+        /* .clients-item .box .message {
+            padding: 0 19px;
+            margin: 0 -0.1rem;
+            font-style: italic;
+            line-height: 30px;
+            font-weight: 300;
+            font-size: 18px;
+        } */
+        .clients-item .box .message {
+            line-height: 25px;
+            font-size: 18px;
+            /* width: 40rem; */
+        }
+
+        .clients-item .box3 {
+            margin-right: -16rem;
+            margin-left: 145px;
+        }
+
         .logo {
             margin: 15px 0 15px 0;
         }
@@ -1303,11 +1348,6 @@
 
         #clients {
             padding: 70px 0 70px;
-        }
-
-        .clients-item .box .message {
-            line-height: 25px;
-            font-size: 18px;
         }
 
         .action h2 {
